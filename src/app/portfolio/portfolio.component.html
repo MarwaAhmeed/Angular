@@ -1,0 +1,13 @@
+<div class="container">
+  <p class="p-3 fs-2">Portfolio</p>
+  <div class="row m-3">
+    <div class="col-lg-4 w-25 text-center align-middle py-5 ms-5 text-white hrLine2" *ngFor="let psec of  portfolioSEc1 ;let i =index" [ngClass]="{'bg-secondary': i %2==0,'bg-dark': i %2!=0 }">
+      {{psec}}
+    </div>
+  </div>
+  <div class="row m-3">
+    <div class="col-lg-4 bg-dark w-25 text-center align-middle py-5 ms-5 text-white "*ngFor="let psec2 of  portfolioSEc2 ; let j =index" [ngClass]="{'bg-dark': j %2==0,'bg-secondary': j %2!=0 }">
+      {{psec2}}
+    </div>
+  </div>
+</div>
