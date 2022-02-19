@@ -8,7 +8,14 @@ import { HeroSecComponent } from './hero-sec/hero-sec.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { CarosalComponent } from './carosal/carosal.component';
+import { CardComponent } from './card/card.component';
+import { CardListComponent } from './card-list/card-list.component';
+import { HeadingsComponent } from './headings/headings.component';
+import { HeadComponent } from './head/head.component';
+import { Footer2Component } from './footer2/footer2.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +24,14 @@ import { FooterComponent } from './footer/footer.component'
     AboutMeComponent,
     SkillsComponent,
     PortfolioComponent,
-    FooterComponent
+    FooterComponent,
+    NavBarComponent,
+    CarosalComponent,
+    CardComponent,
+    CardListComponent,
+    HeadingsComponent,
+    HeadComponent,
+    Footer2Component
   ],
   imports: [
     BrowserModule,
